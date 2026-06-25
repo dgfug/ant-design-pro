@@ -1,13 +1,13 @@
-import React from 'react';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
-import { Card, Typography, Alert } from 'antd';
-import { PageHeaderWrapper } from '@ant-design/pro-layout';
-import { useIntl } from 'umi';
+import { PageContainer } from '@ant-design/pro-components';
+import { useIntl } from '@umijs/max';
+import { Alert, Card, Typography } from 'antd';
+import React from 'react';
 
-export default (): React.ReactNode => {
+const Admin: React.FC = () => {
   const intl = useIntl();
   return (
-    <PageHeaderWrapper
+    <PageContainer
       content={intl.formatMessage({
         id: 'pages.admin.subPage.title',
         defaultMessage: 'This page can only be viewed by admin',
@@ -15,9 +15,10 @@ export default (): React.ReactNode => {
     >
       <Card>
         <Alert
-          message={intl.formatMessage({
+          title={intl.formatMessage({
             id: 'pages.welcome.alertMessage',
-            defaultMessage: 'Faster and stronger heavy-duty components have been released.',
+            defaultMessage:
+              'Faster and stronger heavy-duty components have been released.',
           })}
           type="success"
           showIcon
@@ -28,16 +29,23 @@ export default (): React.ReactNode => {
           }}
         />
         <Typography.Title level={2} style={{ textAlign: 'center' }}>
-          <SmileTwoTone /> Ant Design Pro <HeartTwoTone twoToneColor="#eb2f96" /> You
+          <SmileTwoTone /> Ant Design Pro{' '}
+          <HeartTwoTone twoToneColor="#eb2f96" /> You
         </Typography.Title>
       </Card>
       <p style={{ textAlign: 'center', marginTop: 24 }}>
         Want to add more pages? Please refer to{' '}
-        <a href="https://pro.ant.design/docs/block-cn" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://pro.ant.design/docs/block-cn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           use block
         </a>
         。
       </p>
-    </PageHeaderWrapper>
+    </PageContainer>
   );
 };
+
+export default Admin;

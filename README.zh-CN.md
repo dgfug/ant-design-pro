@@ -1,4 +1,4 @@
-Language : [🇺🇸](./README.md) | 🇨🇳 | [🇷🇺](./README.ru-RU.md) | [🇹🇷](./README.tr-TR.md) | [🇯🇵](./README.ja-JP.md) | [🇫🇷](./README.fr-FR.md) | [🇵🇹](./README.pt-BR.md) | [🇸🇦](./README.ar-DZ.md)
+Language : [English](./README.md) | 简体中文
 
 <h1 align="center">Ant Design Pro</h1>
 
@@ -6,39 +6,42 @@ Language : [🇺🇸](./README.md) | 🇨🇳 | [🇷🇺](./README.ru-RU.md) | 
 
 开箱即用的中台前端/设计解决方案。
 
-[![Build With Umi](https://img.shields.io/badge/build%20with-umi-028fe4.svg?style=flat-square)](http://umijs.org/) [![Build Status](https://dev.azure.com/ant-design/ant-design-pro/_apis/build/status/ant-design.ant-design-pro?branchName=master)](https://dev.azure.com/ant-design/ant-design-pro/_build/latest?definitionId=1?branchName=master) [![Dependencies](https://img.shields.io/david/ant-design/ant-design-pro.svg)](https://david-dm.org/ant-design/ant-design-pro) [![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-pro.svg)](https://david-dm.org/ant-design/ant-design-pro?type=dev) [![Join the chat at https://gitter.im/ant-design/ant-design-pro](https://img.shields.io/gitter/room/ant-design/ant-design-pro.svg?style=flat-square&logoWidth=20&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIHZpZXdCb3g9IjAgMCAzMCAyMCI%2BDQo8ZGVmcz4NCjxwYXRoIGlkPSJzIiBkPSJNMCwtMSAwLjU4Nzc4NSwwLjgwOTAxNyAtMC45NTEwNTcsLTAuMzA5MDE3SDAuOTUxMDU3TC0wLjU4Nzc4NSwwLjgwOTAxN3oiIGZpbGw9IiNmZmRlMDAiLz4NCjwvZGVmcz4NCjxyZWN0IHdpZHRoPSIzMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2RlMjkxMCIvPg0KPHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNSw1KSBzY2FsZSgzKSIvPg0KPHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAsMikgcm90YXRlKDIzLjAzNjI0MykiLz4NCjx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyLDQpIHJvdGF0ZSg0NS44Njk4OTgpIi8%2BDQo8dXNlIHhsaW5rOmhyZWY9IiNzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMiw3KSByb3RhdGUoNjkuOTQ1Mzk2KSIvPg0KPHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAsOSkgcm90YXRlKDIwLjY1OTgwOCkiLz4NCjwvc3ZnPg%3D%3D)](https://gitter.im/ant-design/ant-design-pro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) ![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label) ![Github Action](https://github.com/ant-design/ant-design-pro/workflows/Node%20CI/badge.svg)
+[![CI](https://github.com/ant-design/ant-design-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/ant-design/ant-design-pro/actions/workflows/ci.yml)
+[![GitHub release](https://img.shields.io/github/v/release/ant-design/ant-design-pro.svg)](https://github.com/ant-design/ant-design-pro/releases)
+[![Build With Utoo](https://img.shields.io/badge/build%20with-utoo-028fe4.svg)](https://utoo.land)
+[![Build With Umi](https://img.shields.io/badge/build%20with-umi-028fe4.svg)](https://umijs.org/)
+[![Checked with Biome](https://img.shields.io/badge/Checked_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev)
+[![Ant Design](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label)](https://ant.design/)
 
-![](https://user-images.githubusercontent.com/8186664/44953195-581e3d80-aec4-11e8-8dcb-54b9db38ec11.png)
+![](https://github.com/user-attachments/assets/fde29061-3d9a-4397-8ac2-397b0e033ef5)
 
 </div>
 
-- 预览：http://preview.pro.ant.design
-- 首页：http://pro.ant.design/index-cn
-- 使用文档：http://pro.ant.design/docs/getting-started-cn
-- 更新日志: http://pro.ant.design/docs/changelog-cn
-- 常见问题：http://pro.ant.design/docs/faq-cn
-- 国内镜像：http://ant-design-pro.gitee.io
+- 预览：https://preview.pro.ant.design
+- 使用文档：[docs/cheatsheet.zh-CN.md](./docs/cheatsheet.zh-CN.md)
+- 更新日志: https://github.com/ant-design/ant-design-pro/releases
+- 常见问题：[docs/cheatsheet.zh-CN.md#faq](./docs/cheatsheet.zh-CN.md#faq)
+- **v6 正式发布！** — [查看 v6 更新内容](https://github.com/ant-design/ant-design-pro/releases/tag/v6.0.0)
 
-## 5.0 已经发布! 🎉🎉🎉
-
-[Ant Design Pro 5.0.0](https://github.com/ant-design/ant-design-pro/issues/8656)
 ## 特性
 
 - :bulb: **TypeScript**: 应用程序级 JavaScript 的语言
 - :scroll: **区块**: 通过区块模板快速构建页面
-- :gem: **优雅美观**：基于 Ant Design 体系精心设计
+- :gem: **优雅美观**：基于 [Ant Design 6](https://ant.design/) 体系精心设计
 - :triangular_ruler: **常见设计模式**：提炼自中后台应用的典型页面和场景
-- :rocket: **最新技术栈**：使用 React/umi/dva/antd 等前端前沿技术开发
+- :rocket: **最新技术栈**：使用 React 19/[Umi Max 4](https://umijs.org/)/[antd 6](https://ant.design/)/[utoopack](https://utoo.land) 等前端前沿技术开发
 - :iphone: **响应式**：针对不同屏幕大小设计
-- :art: **主题**：可配置的主题满足多样化的品牌诉求
+- :art: **主题**：基于 [Tailwind CSS v4](https://tailwindcss.com/) + [antd-style](https://github.com/ant-design/antd-style) 的可配置主题满足多样化品牌诉求
 - :globe_with_meridians: **国际化**：内建业界通用的国际化方案
 - :gear: **最佳实践**：良好的工程实践助您持续产出高质量代码
 - :1234: **Mock 数据**：实用的本地数据调试方案
+- :robot: **AI 助手**：内置 AI 聊天助手页面，基于 [Ant Design X](https://x.ant.design/)
 - :white_check_mark: **UI 测试**：自动化测试保障前端产品质量
 
 ## 模板
 
 ```
+- 欢迎页
 - Dashboard
   - 分析页
   - 监控页
@@ -48,16 +51,13 @@ Language : [🇺🇸](./README.md) | 🇨🇳 | [🇷🇺](./README.ru-RU.md) | 
   - 分步表单页
   - 高级表单页
 - 列表页
+  - 搜索列表（文章/项目/应用）
   - 查询表格
   - 标准列表
   - 卡片列表
-  - 搜索列表（项目/应用/文章）
 - 详情页
   - 基础详情页
   - 高级详情页
-- 用户
-  - 用户中心页
-  - 用户设置页
 - 结果
   - 成功页
   - 失败页
@@ -65,7 +65,11 @@ Language : [🇺🇸](./README.md) | 🇨🇳 | [🇷🇺](./README.ru-RU.md) | 
   - 403 无权限
   - 404 找不到
   - 500 服务器出错
-- 帐户
+- 用户
+  - 用户中心页
+  - 用户设置页
+- AI 助手
+- 账户
   - 登录
   - 注册
   - 注册成功
@@ -73,33 +77,80 @@ Language : [🇺🇸](./README.md) | 🇨🇳 | [🇷🇺](./README.ru-RU.md) | 
 
 ## 使用
 
+### 开始使用
+
+克隆或下载本项目到本地：
+
 ```bash
-$ mkdir <your-project-name>
-$ cd <your-project-name>
-$ yarn create umi  # or npm create umi
-
-# Choose ant-design-pro:
- Select the boilerplate type (Use arrow keys)
-❯ ant-design-pro  - Create project with an layout-only ant-design-pro boilerplate, use together with umi block.
-  app             - Create project with a simple boilerplate, support typescript.
-  block           - Create a umi block.
-  library         - Create a library with umi.
-  plugin          - Create a umi plugin.
-
-$ git init
-$ npm install
-$ npm start         # visit http://localhost:8000
+git clone --depth=1 https://github.com/ant-design/ant-design-pro.git myapp
+cd myapp
 ```
 
-更多信息请参考 [使用文档](http://pro.ant.design/docs/getting-started)。
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 开发
+
+```bash
+# 启动开发服务器（默认为完整版）
+npm start
+```
+
+### 精简为简单版本
+
+本项目默认包含所有区块。如果你需要一个最小化的版本，运行：
+
+```bash
+npm run simple
+```
+
+这将会：
+- 删除多余的页面目录（dashboard、form、list/*、profile、result、exception、account 等）
+- 删除多余的 mock 文件
+- 替换路由为简单版本
+- 从 package.json 中移除多余的依赖
+
+**注意**：此操作不可逆，将永久删除文件。
+
+### 构建
+
+```bash
+npm run build
+```
+
+更多信息请参考 [使用文档](./docs/cheatsheet.zh-CN.md)。
+
+## AI Skills（Claude Code）
+
+本项目内置了两个 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills)，位于 `.claude/skills/` 目录下：
+
+| Skill | 触发词 | 说明 |
+|---|---|---|
+| `/pro-upgrade` | "升级"、"upgrade pro"、"update to latest" | 自动升级到最新 Ant Design Pro 版本。对比最新模板差异，合并框架变更并保留业务代码。 |
+| `/antd` | antd 相关代码或问题 | 查询 antd 组件 API、props、token、demo；检查废弃用法；跨版本迁移 — 基于 `@ant-design/cli`。 |
+
+**在 Claude Code 中使用：**
+
+```bash
+# 升级项目到最新 Pro 版本
+/pro-upgrade
+
+# 查询 antd 组件信息、调试问题、运行 lint 等
+/antd
+```
+
+> 💡 如果你的项目是从本仓库克隆的，这些 skill 已经内置，无需额外安装。如需获取最新 skill 定义，可以从模板拉取更新或运行 `npx skills add ant-design/ant-design-pro` 刷新。
 
 ## 支持环境
 
-现代浏览器及 IE11。
+现代浏览器。
 
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
-| --- | --- | --- | --- | --- |
-| IE11, Edge | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| --- | --- | --- | --- |
+| Edge | last 2 versions | last 2 versions | last 2 versions |
 
 ## 参与贡献
 

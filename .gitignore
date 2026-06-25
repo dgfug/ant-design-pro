@@ -8,7 +8,6 @@ _roadhog-api-doc
 
 # production
 /dist
-/.vscode
 
 # misc
 .DS_Store
@@ -18,9 +17,9 @@ yarn-error.log
 /coverage
 .idea
 yarn.lock
-package-lock.json
 *bak
 .vscode
+
 
 # visual studio code
 .history
@@ -28,13 +27,28 @@ package-lock.json
 functions/*
 .temp/**
 
+# claude code local settings
+.claude/settings.local.json
+
 # umi
 .umi
 .umi-production
+.umi-test
+.umi-undefined
+.turbopack
 
 # screenshot
 screenshot
 .firebase
-.eslintcache
 
 build
+
+# worktrees
+.worktrees
+
+# superpowers docs
+docs/superpowers
+
+# cloudflare wrangler
+.wrangler
+requestRecord.mock.js

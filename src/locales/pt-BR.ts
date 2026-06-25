@@ -1,10 +1,10 @@
 import component from './pt-BR/component';
 import globalHeader from './pt-BR/globalHeader';
 import menu from './pt-BR/menu';
-import pwa from './pt-BR/pwa';
+import network from './pt-BR/network';
+import pages from './pt-BR/pages';
 import settingDrawer from './pt-BR/settingDrawer';
 import settings from './pt-BR/settings';
-import pages from './pt-BR/pages';
 
 export default {
   'navBar.lang': 'Idiomas',
@@ -16,7 +16,7 @@ export default {
   ...menu,
   ...settingDrawer,
   ...settings,
-  ...pwa,
+  ...network,
   ...component,
   ...pages,
 };
